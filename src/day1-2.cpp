@@ -36,11 +36,11 @@ int main() {
     sort(col2.begin(), col2.end());
 
     int sum = 0;
-    std::cout << "Total sum is = \n";
+    std::cout << "Total sum is = ";
     for (int i = 0; i < col1.size(); i++) {
         sum = sum + std::abs(col1[i] - col2[i]);
     }
-    std::cout << sum << " ";
+    std::cout << sum << " \n";
 
     return 0;
 }

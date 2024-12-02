@@ -47,13 +47,13 @@ int main() {
 
     int ret = 0;
 
-    std::cout << "Total score is = \n";
+    std::cout << "Total score is = ";
     for (int i = 0; i < col1.size(); i++) {
         int frec = 0;
         frec = count(col2.begin(), col2.end(), col1[i]);
         ret = ret + (col1[i] * frec);
     }
-    std::cout << ret << " ";
+    std::cout << ret << " \n";
 
     return 0;
 }
